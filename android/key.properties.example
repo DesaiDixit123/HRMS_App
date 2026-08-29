@@ -1,0 +1,5 @@
+# Copy this file to android/key.properties and replace the placeholder values.
+storePassword=replace-with-keystore-password
+keyPassword=replace-with-key-password
+keyAlias=replace-with-key-alias
+storeFile=play-upload-keystore.jks
